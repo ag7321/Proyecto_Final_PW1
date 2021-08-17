@@ -1,0 +1,70 @@
+/*Para optimizacion del codigo en las opciones banner, menu, logo*/
+*{
+    margin-top: 5px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo div{
+    width: 100%;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: rgba(13,93,154,255);          
+}
+
+.logo div img{
+    width: 25%;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu div{
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu div a{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.menu div a:hover{
+    background-color: rgba(13,93,154,255);
+    color: white;
+}
+
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    background-color: rgba(13,93,154,255);
+}
+
+.piedepagina div{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.piedepagina div p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

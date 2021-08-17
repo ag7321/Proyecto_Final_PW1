@@ -1,0 +1,71 @@
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner div{
+    width: 100%;
+    background-color: rgba(13,93,154,255);
+    border-radius: 2px;
+}
+
+.banner div img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 99%;
+    height: auto;
+    border-radius: 1%;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.galeria div{
+    width: 100%;
+    margin-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex: 1 400px;
+}
+
+.galeria div img{
+    border: 1px solid white;
+    border-radius: 8px;
+    max-width: 95%;
+    height: auto;
+}
+
+.galeria div img:hover{
+    box-shadow: 0 0 5px 2px rgba(13,93,154,255);
+}
+
+.galeria div h3{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Inder', sans-serif;
+}
+
+.galeria div p{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Inder', sans-serif;
+    background-color: rgba(13,93,154,255);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 93%;
+    height: auto;
+}
+
+.galeria div p:hover{
+    box-shadow: 0 0 5px 2px rgba(13,93,154,255);
+}

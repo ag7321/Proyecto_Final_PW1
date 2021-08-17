@@ -1,0 +1,101 @@
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner div{
+    width: 100%;
+    background-color: rgba(13,93,154,255);
+    border-radius: 2px;
+}
+
+.banner div img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 99%;
+    height: auto;
+    border-radius: 1%;
+}
+
+.infocorporativa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.infocorporativa div{
+    width: 100%;
+    border: 1px solid white;
+    line-height: 20px;
+    flex: 1 300px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.infocorporativa div img{
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 45px;
+    margin-right: 5px;
+    max-width: 99%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.infocorporativa div img:hover{
+    box-shadow: 0 0 5px 2px rgba(13,93,154,255);
+}
+
+.infocorporativa div p,ul{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: 'Inder', sans-serif;
+    list-style: none;
+}
+
+
+.infocorporativa div ul li::before { 
+    content: "\2022"; 
+    padding-right: 8px; 
+    color:red;
+}
+
+.infocorporativa div h2{
+    text-align: center;
+    font-family: 'Inder', sans-serif;
+}
+
+.temasgenerales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.temasgenerales div{
+    width: 100%;
+    border: 1px solid white;
+    line-height: 20px;
+    flex: 1 300px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.temasgenerales div h2{
+    text-align: center;
+    font-family: 'Inder', sans-serif;
+}
+
+.temasgenerales div p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: 'Inder', sans-serif;
+}

@@ -1,0 +1,74 @@
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner div{
+    width: 100%;
+    background-color: rgba(13,93,154,255);
+    border-radius: 2px;
+}
+
+.banner div img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 99%;
+    height: auto;
+    border-radius: 1%;
+}
+
+.contactenos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactenos div{
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-bottom:15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1 300px;
+
+}
+
+.contactenos div form{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(13,93,154,255);
+    padding-bottom: 90px;
+    padding-top: 100px;
+    border-radius: 8px;
+}
+
+.contactenos div form h2{
+    text-align: center;
+    font-family: 'Inder', sans-serif;
+    color: white;
+}
+
+textarea{
+    resize: none;
+}
+
+.contactenos div h3{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Inder', sans-serif;
+    background-color: rgba(13,93,154,255);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.contactenos div h3:hover{
+    box-shadow: 0 0 5px 2px rgba(13,93,154,255);
+}
